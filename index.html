@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Web Page</title>
+        <meta name="description" content="This is a sample web page.">
+        <meta name="author" content="Monica Araceli Kyne">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 768px)">
+
+        <!-- Javascript files-->
+         <script src="navigation.js" defer></script>
+         <script src="date.js" defer></script>
+         <script src="course.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <img src="images/profile.jpg" alt="Profile Picture" id="profile-pic">
+            <span>Monica Araceli Kyne<span>
+        </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="chamber.html">Chamber</a></li>
+                    <li><a href="final.html">Final</a></li>
+                    <li><a href="https://github.com/Aracelikyne">GitHub Profile</a></li>
+                    <li><a href="https://www.linkedin.com/in/araceli-kyne/">LinkedIn Profile</a></li>
+                </ul>
+            </nav>
+        
+
+        <main>
+            <h1>Home</h1>
+
+            <section>
+                <h2>Course Work</h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+
+            </section>
+            <section>
+                <h2>Ouray, Colorado</h2>
+                <img src="images/ouray.jpg" alt="Ouray, Colorado" class="image">
+                <p>Ouray, Colorado is a beautiful place known for its stunning mountain views and outdoor activities.</p>
+                <p>It is often referred to as the "Switzerland of America" due to its picturesque scenery.</p>
+            </section>
+
+            <section class="certificate">
+                <h2>Web and Computer Programming Certificate</h2>
+                <div class="filter-buttons">
+                    <button id="all">All Courses</button>
+                    <button id="cse">CSE Courses</button>
+                    <button id="wdd">WDD Courses</button>
+                </div>
+                <div class="card-content">
+                    <ul id="courses"></ul>
+                </div>
+                
+            </section>
+            
+            
+        </main>
+    
+        <footer>
+            <p>&copy; <span id="currentYear"></span> Monica Araceli Kyne | Texas USA</p>
+            <p id="lastModified"></p>
+        </footer>
+    
+        <script>
+            document.getElementById("currentYear").textContent = new Date().getFullYear();
+            document.getElementById("lastModified").textContent = "Last modified: " + document.lastModified;
+        </script>
+
+    </body>
+</html>

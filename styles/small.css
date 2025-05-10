@@ -1,0 +1,140 @@
+/* Reset styles for consistency */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5fa;
+    color: #333;
+}
+header {
+    background-color: #fae1dd;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+
+}
+header h1  {
+    color: #fff;
+}
+/* Ensure text doesn't touch screen edges */
+body {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Mobile-first navigation */
+nav {
+    background-color: #fae1dd;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    display: none; /* Hide menu by default */
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #83c5be;
+}
+
+/* Toggle button for mobile navigation */
+#menu-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Show menu when active */
+nav.active ul {
+    display: flex;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 15px;
+    background-color: #006d77;
+    color: #fff;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #006d77;
+}
+
+/* Sections */
+section {
+    background-color: #eaeaea;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #006d77;
+    color: #fff;
+}
+
+/* Prevent horizontal scrolling */
+html, body {
+    overflow-x: hidden;
+}
+
+/* Ensure images resize properly */
+img {
+    max-width: 100%;
+    height: auto;
+}
+.course {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    /* Remove width: 100%; */
+    flex-basis: 100%; /* Start with a base of 100% */
+    flex-grow: 1; /* Allow items to grow */
+    box-sizing: border-box; /* Include padding in the element's total width */
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 10px;
+    /* Add some padding to the container to prevent items from touching the edges */
+    padding: 10px;
+    
+}
+/* Styles for the certificate section on small screens */
+.certificate {
+    height: auto;
+    min-height: 50px; 
+    padding: 15px; 
+
+    background-color: #eaeaea; /* Matches your other section background */
+}
