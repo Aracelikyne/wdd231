@@ -3,8 +3,8 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f5fa;
-    color: #333;
+    background-color: #f5f5fa; /* Body background */
+    color: #333333; /* Standard text on light backgrounds */
 }
 
 body {
@@ -13,8 +13,8 @@ body {
 }
 
 header {
-    background-color: #006d77;
-    color: #fff;
+    background-color: #003840; /* Primary Dark Teal */
+    color: #FFFFFF; /* Text on Dark */
     padding: 12px 20px;
     display: flex;
     justify-content: space-between;
@@ -29,12 +29,13 @@ header img#profile-pic {
     width: 50px;
     border-radius: 50%;
     margin-right: 15px;
-    border: 2px solid #fff;
+    border: 2px solid #FFFFFF; /* Text on Dark (White) */
 }
 
 header span {
     font-size: 1.3em;
     font-weight: 600;
+    color: #FFFFFF; /* Text on Dark */
 }
 
 #menu-toggle {
@@ -43,7 +44,7 @@ header span {
     font-size: 28px;
     background: none;
     border: none;
-    color: #fff;
+    color: #FFFFFF; /* Text on Dark */
     padding: 8px;
     margin-left: auto;
     transition: transform 0.3s ease;
@@ -62,7 +63,7 @@ nav#main-nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color: #005c66;
+    background-color: #003840; /* Primary Dark Teal */
     position: absolute;
     width: 100%;
     left: 0;
@@ -77,20 +78,18 @@ nav#main-nav ul {
                 visibility 0.3s ease-in-out;
 }
 
-
 nav#main-nav ul.show-menu {
     max-height: 500px;
     opacity: 1;
     visibility: visible;
 }
 
-
 nav#main-nav ul li a {
-    color: #e0f2f1;
+    color: #FFFFFF; /* Text on Dark */
     text-decoration: none;
     padding: 18px 25px;
     display: block;
-    border-bottom: 1px solid #004c54;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Subtle Border Teal */
     font-weight: 500;
     transition: background-color 0.2s ease, color 0.2s ease;
 }
@@ -101,17 +100,17 @@ nav#main-nav ul li:last-child a {
 
 nav#main-nav ul li a:hover,
 nav#main-nav ul li a:focus {
-    background-color: #00796b;
-    color: #fff;
+    background-color: #004c57; /* Hover/Focus Teal */
+    color: #FFFFFF; /* Text on Dark */
 }
 
 main {
     padding: 20px;
-    background-color: #f5f5fa;
+    background-color: #f5f5fa; /* Body Background */
 }
 
 h1, h2 {
-    color: #006d77;
+    color: #003840; /* Primary Dark Teal (as text on light bg) */
     margin-top: 0;
     margin-bottom: 15px;
 }
@@ -119,7 +118,7 @@ h1 { font-size: 2em; }
 h2 { font-size: 1.6em; }
 
 section {
-    background-color: #fff;
+    background-color: #FFFFFF; /* Section/Card Background */
     padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
@@ -137,8 +136,8 @@ ul#courses {
 }
 
 .course-item {
-    background-color: #e0f2f1;
-    color: #004d40;
+    background-color: #eBF5F8; /* Light Teal Accent */
+    color: #003840; /* Primary Dark Teal (as text) */
     padding: 18px 25px;
     border-radius: 8px;
     text-align: center;
@@ -152,13 +151,13 @@ ul#courses {
 .course-item:hover {
     transform: translateY(-3px) scale(1.03);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    background-color: #00796b;
-    color: #fff;
+    background-color: #003840; /* Primary Dark Teal */
+    color: #FFFFFF; /* Text on Dark */
 }
 
 .certificate {
     padding: 20px;
-    background-color: #fff;
+    background-color: #FFFFFF; /* Section/Card Background */
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.05);
     margin: 20px 0;
@@ -173,27 +172,29 @@ ul#courses {
 
 .filter-buttons button {
     padding: 10px 18px;
-    border: 1px solid #006d77;
-    background-color: #fff;
-    color: #006d77;
+    border: 1px solid #003840; /* Primary Dark Teal */
+    background-color: #ffffff; /* Section/Card Background (White) */
+    color: #003840; /* Primary Dark Teal (as text) */
     border-radius: 20px;
     cursor: pointer;
     font-weight: 500;
+    font-size: 13.3333px;
     transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .filter-buttons button:hover,
 .filter-buttons button.active-filter {
-    background-color: #006d77;
-    color: #fff;
+    background-color: #003840; /* Primary Dark Teal */
+    color: #FFFFFF; /* Text on Dark */
+    border-color: #003840; /* Primary Dark Teal */
 }
 
 footer {
     text-align: center;
     font-size: 0.9em;
     padding: 20px;
-    background-color: #004d40;
-    color: #e0f2f1;
+    background-color: #003840; /* Primary Dark Teal */
+    color: #FFFFFF; /* Text on Dark */
     margin-top: 30px;
 }
 
@@ -214,7 +215,7 @@ img.image {
     nav#main-nav ul {
         position: static;
         flex-direction: row;
-        background-color: transparent;
+        background-color: transparent; /* Will inherit header's Primary Dark Teal */
         box-shadow: none;
         max-height: none;
         opacity: 1;
@@ -224,7 +225,7 @@ img.image {
     }
 
     nav#main-nav ul li a {
-        color: #fff;
+        color: #FFFFFF; /* Text on Dark (header bg) */
         padding: 10px 15px;
         border-bottom: none;
         border-radius: 5px;
@@ -232,8 +233,8 @@ img.image {
 
     nav#main-nav ul li a:hover,
     nav#main-nav ul li a:focus {
-        background-color: rgba(255, 255, 255, 0.15);
-        color: #fff;
+        background-color: #004c57; /* Hover/Focus Teal */
+        color: #FFFFFF; /* Text on Dark */
     }
 
     header span {

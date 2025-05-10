@@ -1,8 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const courseContainer = document.getElementById("courses"); // Changed from .querySelector(".courses")
-    // The allButton variable was declared but not used, so it can be removed or ignored.
-    // const allButton = document.getElementById("filter-buttons");
-
     const courses = [
         {
             subject: 'CSE',
@@ -84,37 +80,42 @@ document.addEventListener("DOMContentLoaded", function() {
     ];
 
     function displayCourses(filter) {
-        const container = document.querySelector(".courses");
-        container.innerHTML = ""; // Reset content
+        const container = document.getElementById("courses");
+        if (!container) {
+            console.error("Course container element not found!");
+            return;
+        }
+        container.innerHTML = "";
 
-        // FIX 1: Filter by course.subject instead of course.type
         let filtered = filter ? courses.filter(course => course.subject === filter) : courses;
 
-        console.log("Displaying courses:", filtered); // Debugging check
+        console.log("Displaying courses:", filtered.length, "items");
+
+        const totalCredits = filtered.reduce((total, course) => total + course.credits, 0);
+        const totalCreditsElement = document.getElementById("total-credits");
+        if (totalCreditsElement) {
+            totalCreditsElement.textContent = ` ${totalCredits}`;
+        } else {
+            console.error("Total credits element not found!");
+        }
 
         filtered.forEach(course => {
-            const div = document.createElement("div");
-            div.className = "course";
-
-            // FIX 2: Display course subject and number instead of course.name
-            div.textContent = course.subject + ' ' + course.number;
-            // Alternatively, you could display the title: div.textContent = course.title;
+            const li = document.createElement("li");
+            li.className = "course-item";
+            li.textContent = `${course.subject} ${course.number}`;
 
             if (course.completed) {
-                div.style.backgroundColor = "#8ac6d1";
+                li.style.backgroundColor = "#8ac6d1";
             } else {
-                div.style.backgroundColor = "#ffb5a7";
+                li.style.backgroundColor = "#f5f5f5";
             }
-
-            container.appendChild(div);
+            container.appendChild(li);
         });
     }
 
-    // Event listeners remain the same as they correctly target the button IDs
     document.getElementById("all").addEventListener("click", () => displayCourses());
     document.getElementById("cse").addEventListener("click", () => displayCourses("CSE"));
     document.getElementById("wdd").addEventListener("click", () => displayCourses("WDD"));
 
-    // Initial display of all courses on page load
     displayCourses();
 });
