@@ -39,7 +39,7 @@
     }
 
     nav#main-nav ul li a {
-        color: #FFFFFF;
+        color: white;
         text-decoration: none;
         padding: 10px 15px;
         font-weight: 500;
@@ -51,7 +51,7 @@
 
     nav#main-nav ul li a:hover,
     nav#main-nav ul li a:focus {
-        background-color: #004c57;
+        background-color: #004752;
         color: #FFFFFF;
     }
 
