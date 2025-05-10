@@ -3,8 +3,8 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f5fa; /* Body background */
-    color: #333333; /* Standard text on light backgrounds */
+    background-color: #f5f5fa;
+    color: #333333;
 }
 
 body {
@@ -13,8 +13,8 @@ body {
 }
 
 header {
-    background-color: #003840; /* Primary Dark Teal */
-    color: #FFFFFF; /* Text on Dark */
+    background-color: #003840;
+    color: #FFFFFF;
     padding: 12px 20px;
     display: flex;
     justify-content: space-between;
@@ -26,16 +26,16 @@ header {
 
 header img#profile-pic {
     height: 50px;
-    width: 50px;
-    border-radius: 50%;
+    width: 67px;
+    border-radius: 5%;
     margin-right: 15px;
-    border: 2px solid #FFFFFF; /* Text on Dark (White) */
+    border: 2px solid #FFFFFF;
 }
 
 header span {
     font-size: 1.3em;
     font-weight: 600;
-    color: #FFFFFF; /* Text on Dark */
+    color: #FFFFFF;
 }
 
 #menu-toggle {
@@ -44,7 +44,7 @@ header span {
     font-size: 28px;
     background: none;
     border: none;
-    color: #FFFFFF; /* Text on Dark */
+    color: #FFFFFF;
     padding: 8px;
     margin-left: auto;
     transition: transform 0.3s ease;
@@ -63,7 +63,7 @@ nav#main-nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color: #003840; /* Primary Dark Teal */
+    background-color: #003840;
     position: absolute;
     width: 100%;
     left: 0;
@@ -85,11 +85,11 @@ nav#main-nav ul.show-menu {
 }
 
 nav#main-nav ul li a {
-    color: #FFFFFF; /* Text on Dark */
+    color: #FFFFFF;
     text-decoration: none;
     padding: 18px 25px;
     display: block;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Subtle Border Teal */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     font-weight: 500;
     transition: background-color 0.2s ease, color 0.2s ease;
 }
@@ -100,53 +100,49 @@ nav#main-nav ul li:last-child a {
 
 nav#main-nav ul li a:hover,
 nav#main-nav ul li a:focus {
-    background-color: #004c57; /* Hover/Focus Teal */
-    color: #FFFFFF; /* Text on Dark */
+    background-color: #004c57;
+    color: #FFFFFF;
 }
 
 main {
     padding: 20px;
-    background-color: #f5f5fa; /* Body Background */
+    background-color: #f5f5fa;
 }
 
-h1 { 
-    font-size: 2em; 
+h1 {
+    font-size: 2em;
     color: #003840;
     margin-top: 0;
     margin-bottom: 15px;
 }
 
-/* Default h2 styling, section headers will use .section-header */
-h2 { 
-    font-size: 1.6em; 
+h2 {
+    font-size: 1.6em;
     color: #003840;
     margin-top: 0;
     margin-bottom: 15px;
 }
-
 
 .content-section {
-    background-color: #FFFFFF; 
-    padding: 20px; 
+    background-color: #FFFFFF;
+    padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-    position: relative; 
+    position: relative;
 }
 
-
 .section-header {
-    background-color: #003840; 
-    color: #FFFFFF; 
-    padding: 10px 20px; 
-    margin: -20px -20px 20px -20px; 
-    border-top-left-radius: 8px; 
-    border-top-right-radius: 8px; 
-    font-size: 1.4em; 
+    background-color: #003840;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    margin: -20px -20px 20px -20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 1.4em;
     font-weight: 600;
     text-align: center;
-    
-    margin-top: -20px; 
+    margin-top: -20px;
 }
 
 ul#courses {
@@ -156,19 +152,19 @@ ul#courses {
     padding: 0;
     list-style: none;
     justify-content: center;
-    margin-top: 15px; 
+    margin-top: 15px;
 }
 
 .course-item {
-    background-color: #eBF5F8; 
-    color: #003840; 
+    background-color: #eBF5F8;
+    color: #003840;
     padding: 18px 25px;
     border-radius: 8px;
     text-align: center;
     font-weight: 600;
     min-width: 140px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border: 5px solid transparent; /* Default border */
+    border: 5px solid transparent;
     transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
     box-sizing: border-box;
 }
@@ -177,10 +173,9 @@ ul#courses {
 .course-item:focus {
     transform: translateY(-3px) scale(1.03);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    background-color: #003840; 
-    color: #FFFFFF; 
+    background-color: #003840;
+    color: #FFFFFF;
 }
-
 
 .filter-buttons {
     display: flex;
@@ -191,9 +186,9 @@ ul#courses {
 
 .filter-buttons button {
     padding: 10px 18px;
-    border: 1px solid #003840; 
-    background-color: #ffffff; 
-    color: #003840; 
+    border: 1px solid #003840;
+    background-color: #ffffff;
+    color: #003840;
     border-radius: 20px;
     cursor: pointer;
     font-weight: 500;
@@ -203,17 +198,17 @@ ul#courses {
 
 .filter-buttons button:hover,
 .filter-buttons button.active-filter {
-    background-color: #003840; 
-    color: #FFFFFF; 
-    border-color: #003840; 
+    background-color: #003840;
+    color: #FFFFFF;
+    border-color: #003840;
 }
 
 footer {
     text-align: center;
     font-size: 0.9em;
     padding: 20px;
-    background-color: #003840; 
-    color: #FFFFFF; 
+    background-color: #003840;
+    color: #FFFFFF;
     margin-top: 30px;
 }
 
@@ -225,12 +220,11 @@ img.image {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
 .course-item.completed {
-    border-color: #155724; /* Darker green border */
+    border-color: #155724;
 }
 
 .course-item.not-completed {
-    border-color: #0056b3; /* Border matches darker blue */
+    border-color: #0056b3;
 }
-
-  

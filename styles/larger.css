@@ -1,5 +1,4 @@
 @media screen and (min-width: 768px) {
-   
     body {
         font-size: 18px;
     }
@@ -16,7 +15,7 @@
     #menu-toggle {
         display: none;
     }
-    
+
     nav#main-nav ul {
         display: flex;
         flex-direction: row;
@@ -26,7 +25,7 @@
         padding: 0;
         margin: 0;
         position: static;
-        background-color: #003840; /* Changed from transparent for accessibility */
+        background-color: #003840;
         box-shadow: none;
         max-height: none;
         opacity: 1;
@@ -38,7 +37,7 @@
     nav#main-nav ul li {
         margin-left: 10px;
     }
-    
+
     nav#main-nav ul li a {
         color: #FFFFFF;
         text-decoration: none;
@@ -55,13 +54,12 @@
         background-color: #004c57;
         color: #FFFFFF;
     }
-    
+
     header span {
-        /* margin-right: auto; /* Removed */
-        flex-grow: 1; /* Added to allow span to fill space */
-        text-align: center; /* Added to center text within the span */
+        flex-grow: 1;
+        text-align: center;
     }
-   
+
     main {
         max-width: 960px;
         margin: 20px auto;
@@ -90,7 +88,7 @@
         box-sizing: border-box;
         margin: 0;
     }
-    
+
     main > section:not(:nth-of-type(1)):not(:nth-of-type(2)):not(.certificate) {
         flex-basis: 100%;
         box-sizing: border-box;
@@ -101,6 +99,7 @@
         font-size: 2.2em;
         color: #003840;
     }
+
     h2 {
         font-size: 1.8em;
         color: #003840;
@@ -110,15 +109,16 @@
         max-width: 100%;
         height: auto;
     }
+
     .course-item.completed {
-        background-color: #e9f5ec; /* Lighter green background on hover for completed */
-        color: #155724; /* Darker green text on hover */
-        border-color: #155724; /* Darker green border */
+        background-color: #e9f5ec;
+        color: #155724;
+        border-color: #155724;
     }
-    
+
     .course-item.in-progress {
-        background-color: #0056b3; /* Darker blue background on hover for in-progress */
-        color: #ffffff; /* White text remains */
-        border-color: #0056b3; /* Border matches darker blue */
+        background-color: #0056b3;
+        color: #ffffff;
+        border-color: #0056b3;
     }
 }
