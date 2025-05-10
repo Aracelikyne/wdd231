@@ -25,8 +25,8 @@ header {
 }
 
 header img#profile-pic {
-    height: 50px;
-    width: 67px;
+    max-height: 160px;
+    max-width: 120px;
     border-radius: 5%;
     margin-right: 15px;
     border: 2px solid #FFFFFF;
