@@ -105,9 +105,9 @@ document.addEventListener("DOMContentLoaded", function() {
             li.textContent = `${course.subject} ${course.number}`;
 
             if (course.completed) {
-                li.style.backgroundColor = "#8ac6d1";
+                li.classList.add("completed");
             } else {
-                li.style.backgroundColor = "#f5f5f5";
+                li.classList.add("not-completed");
             }
             container.appendChild(li);
         });

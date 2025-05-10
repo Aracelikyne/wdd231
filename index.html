@@ -3,9 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Web Page</title>
-        <meta name="description" content="This is a sample web page.">
+        <title>My Course Portal</title>
+        <meta name="description" content="A portal page for my course work and projects.">
         <meta name="author" content="Monica Araceli Kyne">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="styles/small.css">
         <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 768px)">
 
@@ -17,8 +22,9 @@
     <body>
         <header>
             <img src="images/profile.jpg" alt="Profile Picture" id="profile-pic">
-            <span>Monica Araceli Kyne</span> <button id="menu-toggle" aria-label="Open navigation menu">&#9776;</button>
-        </header>
+            <span>Monica Araceli Kyne</span> 
+            <button id="menu-toggle" aria-label="Open navigation menu">&#9776;</button></header>
+
             <nav id="main-nav">
                 <ul class="hide-menu">
                     <li><a href="index.html">Home</a></li>
@@ -33,8 +39,8 @@
         <main> 
             <h1>Home</h1>
 
-            <section>
-                <h2>Course Work</h2>
+            <section class="content-section section-column-half">
+                <h2 class="section-header">Course Work</h2>
                 <ul>
                     <li></li>
                     <li></li>
@@ -43,15 +49,14 @@
 
 
             </section>
-            <section>
-                <h2>Ouray, Colorado</h2>
+            <section class="content-section section-column-half">
+                <h2 class="section-header">Ouray, Colorado</h2>
                 <img src="images/ouray.jpg" alt="Ouray, Colorado" class="image">
-                <p>Ouray, Colorado is a beautiful place known for its stunning mountain views and outdoor activities.</p>
-                <p>It is often referred to as the "Switzerland of America" due to its picturesque scenery.</p>
+                <p>Ouray, Colorado main street</p>
             </section>
 
-            <section class="certificate">
-                <h2>Web and Computer Programming Certificate</h2>
+            <section class="content-section certificate-section">
+                <h2 class="section-header">Web and Computer Programming Certificate</h2>
                 <div class="filter-buttons">
                     <button id="all">All Courses</button>
                     <button id="cse">CSE Courses</button>
