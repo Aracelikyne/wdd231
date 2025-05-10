@@ -10,17 +10,17 @@
         <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 768px)">
 
         <!-- Javascript files-->
-         <script src="navigation.js" defer></script>
-         <script src="date.js" defer></script>
-         <script src="course.js" defer></script>
+         <script src="scripts/navigation.js" defer></script>
+         <script src="scripts/date.js" defer></script>
+         <script src="scripts/course.js" defer></script>
     </head>
     <body>
         <header>
             <img src="images/profile.jpg" alt="Profile Picture" id="profile-pic">
-            <span>Monica Araceli Kyne<span>
+            <span>Monica Araceli Kyne<span> <button id="menu-toggle" aria-label="Open navigation menu">&#9776;</button>
         </header>
-            <nav>
-                <ul>
+            <nav id="main-nav">
+                <ul class="hide-menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="chamber.html">Chamber</a></li>
                     <li><a href="final.html">Final</a></li>
@@ -30,7 +30,7 @@
             </nav>
         
 
-        <main>
+        <main> 
             <h1>Home</h1>
 
             <section>
@@ -60,6 +60,7 @@
                 <div class="card-content">
                     <ul id="courses"></ul>
                 </div>
+                <p>Total Credits for Displayed Courses: <span id="total-credits">0</span></p>
                 
             </section>
             
