@@ -1,0 +1,171 @@
+@media (min-width: 600px) {
+    .content-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    header .content-wrapper {
+        display: grid;
+        grid-template-columns: auto 1fr; 
+        align-items: center;
+        gap: 20px; 
+    }
+    header img {
+        border-radius: 2%;
+        border: 3px solid #ccc;
+        max-width: 167px; 
+        height: auto; 
+        justify-self: start;
+    }
+    header .header-name {
+        font-size: 2em;
+        white-space: normal; 
+        text-align: left; 
+        margin-left: 20px;
+    }
+    #menuButton {
+        display: none !important;
+    }
+    nav ul, nav ul.hide-menu {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: center;
+        list-style-type: none;
+        padding: 0.5em 1em;
+        margin: 0;
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        max-width: fit-content;
+        position: static;
+        height: auto;
+    }
+    nav ul li a {
+        padding: 12px 18px;
+        font-size: 1.1em;
+    }
+    main h1 {
+        font-size: 2.8em;
+        margin-bottom: 1.5rem;
+    }
+    .filter-controls-directory {
+        margin-bottom: 1.5rem;
+        padding: 20px 0; 
+        border-bottom: 2px solid #ccc; 
+    }
+    .filter-btn {
+        padding: 0.5em 1em;
+        font-size: 1em; 
+    }
+    footer {
+        border-top-width: 2px;
+        padding: 2.5rem 0;
+    }
+    footer .content-wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+        text-align: left;
+        align-items: start;
+    }
+    footer p {
+        margin: 0.25em 0;
+    }
+    footer .content-wrapper div:nth-child(2) img {
+        margin: 0 0.5rem;
+    }
+    .hero-directory {
+        background-color: #d0d0d0; 
+    }
+    .hero-directory img {
+        max-height: 400px; 
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    .hero-directory .hero-text {
+        background-color: rgba(0, 0, 0, 0.65);
+        padding: 1.5rem 2.5rem;
+        border-radius: 6px;
+        max-width: 60%;
+    }
+    .hero-directory .hero-text h1 {
+        font-size: 2.5em; 
+    }
+    .directory-controls {
+        margin-bottom: 1.5rem;
+        justify-content: flex-end;
+    }
+    #members-display-area.cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 2rem;
+    }
+    #members-display-area.list .member-card {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 1.5rem;
+        padding: 1.5rem;
+        text-align: left;
+        margin-bottom: 1.5rem; 
+    }
+    #members-display-area.list .member-card img {
+        width: 160px; 
+        height: 120px;
+        object-fit: cover; 
+        margin: 0; 
+        flex-shrink: 0;
+        border-radius: 6px;
+        border: 1px solid #eee;
+        padding: 3px;
+    }
+    #members-display-area.list .member-card h2 {
+        text-align: left;
+        font-size: 1.6em;
+        margin-bottom: 0.35rem;
+    }
+    #members-display-area.list .member-card p {
+        margin-bottom: 0.25rem;
+        font-size: 0.9em;
+        text-align: left;
+    }
+    #members-display-area.list .member-card p.membership-level {
+        text-align: left;
+        margin-top: 0.6rem;
+    }
+    #members-display-area.list .member-card > div { 
+        flex-grow: 1;
+    }
+    .member-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%; 
+        transition: transform 0.3s ease, box-shadow 0.3s ease; 
+        border: 1px solid #ccc;
+        background-color: #fff;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+        margin: 0; 
+        padding: 1.5rem; 
+    }
+    .member-card img { 
+        width: 160px; 
+        height: 120px; 
+        object-fit: cover; 
+        margin: 0 auto 1rem auto;
+        border-radius: 6px;
+        border: none; 
+        padding: 0; 
+    }
+    .member-card:hover {
+        transform: scale(1.03); 
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2); 
+        z-index: 10; 
+    }
+    .member-card h2 {
+        font-size: 1.5em;
+    }
+    .member-card p {
+        font-size: 0.95em;
+    }
+}
