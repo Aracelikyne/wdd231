@@ -1,90 +1,90 @@
 [
     {
-    "name": "Hole 'N' The Rock",
-    "address": "11037 S Hwy 191, Ouray, CO 84532",
-    "phone": "(435) 686-2250",
-    "websiteURL": "https://www.theholeintherock.com/",
-    "imageFileName": "hole_n_the_rock.webp",
+    "name": "Artisan Bakery & Cafe",
+    "address": "441 Main St, Ouray, CO 81427",
+    "phone": "(970) 633-5995",
+    "websiteURL": "https://artisanbakeryouray.com/",
+    "imageFileName": "artisan1.webp",
     "membershipLevel": 3,
-    "category": "attractions",
-    "description": "A unique rock formation and historic site with a fascinating story."
+    "category": "food",
+    "description": "Breakfast Wraps, Sandwhiches, Pastries, Coffee, Lattes, Mochas, Hot Tea"
 
     },
     {
-        "name": "Ouray Giants",
-        "address": "112 West UT-313, Ouray, CO 84532",
-        "phone": "(435) 355-0288",
-        "websiteURL": "https://Ouraygiants.com/",
-        "imageFileName": "Ouray_giants.webp",
+        "name": "Brickhouse 737",
+        "address": "737 Main St, Ouray, CO 81427",
+        "phone": "(970) 325-7236",
+        "websiteURL": "https://brickhouse737.com",
+        "imageFileName": "brickhouse.webp",
         "membershipLevel": 2,
-        "category": "attractions",
-        "description": "A dinosaur park and museum featuring life-sized dinosaur replicas and interactive exhibits."
+        "category": "food",
+        "description": "A gathering place that focuses on community, farm-fresh ingredients, hospitality & travel-inspired dishes."
 
     },
     {
-        "name": "Ouray Backyard Theater",
-        "address": "56 W 100 S, Ouray, CO 84532",
-        "phone": "(435) 534-0435",
-        "websiteURL": "http://www.Ouraybackyardtheater.com/",
-        "imageFileName": "Ouray_theater.webp",
+        "name": "Corkscrew Tavern Pizzeria",
+        "address": "515 Main St, Ouray, CO 81427",
+        "phone": "(970) 325-3315",
+        "websiteURL": "https://www.corkscrewpizza.com/",
+        "imageFileName": "corkscrew.webp",
         "membershipLevel": 3,
-        "category": "entertainment",
-        "description": "An outdoor theater offering a unique movie-watching experience under the stars."
+        "category": "food",
+        "description": "Long known for their excellent brick oven pizza and using high quality ingredients"
 
     },
     {
-        "name": "World Famous Woody's Tavern",
-        "address": "221 S Main St, Ouray, CO 84532",
-        "phone": "(435) 259-3550",
-        "websiteURL": "http://www.Ouraywoodytavern.com/",
-        "imageFileName": "woodys_tavern.webp",
+        "name": "The Wright Opera House",
+        "address": "472 Main St, Ouray, CO 81427",
+        "phone": "(970) 325-4399",
+        "websiteURL": "https://thewrightoperahouse.org/",
+        "imageFileName": "wright.webp",
         "membershipLevel": 1,
         "category": "entertainment",
-        "description": "A local bar and grill known for its lively atmosphere, great food, and live music events."
+        "description": "A historic theater that has been entertaining audiences for over a century"
 
     },
     {
-        "name": "Ouray Cliffs & Canyons",
-        "address": "221 S Main St, Ouray, CO 84532",
-        "phone": "(435) 259-3317",
-        "websiteURL": "http://www.Ouraywoodytavern.com/",
-        "imageFileName": "Ouray_cliffs_canyons.webp",
+        "name": "Ouray Hot Springs Pool",
+        "address": "1220 Main St, Ouray, CO 81427",
+        "phone": "(970) 325-7073",
+        "websiteURL": "https://www.visitouray.com/ourayhotspringspool",
+        "imageFileName": "hotsprings.webp",
         "membershipLevel": 3,
-        "category": "guides",
-        "description": "A guiding service offering rock climbing, canyoneering, and other outdoor adventures in the Ouray area."
+        "category": "entertainment",
+        "description": "Experience the healing element of the natural minerals from the hot springs. Find your new energy while you find you tranquility."
 
     },
     {
-        "name": "Mild to Wild Rafting & Jeep Tours",
-        "address": "745 Kane Creek Blvd, Ouray, CO 84532",
-        "phone": "(970) 247-4789",
-        "websiteURL": "https://mild2wildrafting.com/",
-        "imageFileName": "mild_2_wild.webp",
+        "name": "Ouray Glassworks &  Pottery",
+        "address": "619 Main St, Ouray, CO 81427",
+        "phone": "(970) 325-7334",
+        "websiteURL": "https://www.ourayglassworksandpottery.com/",
+        "imageFileName": "pottery.webp",
         "membershipLevel": 3,
-        "category": "guides",
-        "description": "A guiding service offering rock climbing, canyoneering, and other outdoor adventures in the Ouray area."
+        "category": "experience",
+        "description": "Handblown glass and handcrafted pottery created on-site. "
 
     },
     {
-        "name": "Milt's Stop & Eat",
-        "address": "356 S Mill Creek Dr, Ouray, CO 84532",
-        "phone": "(435) 259-7424",
-        "websiteURL": "https://order.toasttab.com/online/milts-stop-n-eat-356-s-mill-creek-dr",
-        "imageFileName": "milts_food.webp",
+        "name": "Bachelor Syracuse Mine Tour",
+        "address": "95 Gold Mountain Trail, Ouray, CO 81427",
+        "phone": "(970) 325-0220",
+        "websiteURL": "https://bachelorsyracusemine.com/",
+        "imageFileName": "mine.webp",
         "membershipLevel": 3,
-        "category": "food",
-        "description": "A local favorite for burgers, fries, and shakes, known for its casual atmosphere and outdoor seating."
+        "category": "experience",
+        "description": "Go deep into the history of Ouray's mining era with an immersive undergroud adventure. "
 
     },
     {
-        "name": "The Cowboy Grill",
-        "address": "milepost 14, 14 UT-128, Ouray, CO 84532",
-        "phone": "(435) 259-2002",
-        "websiteURL": "https://www.redcliffslodge.com/cowboy-grill",
-        "imageFileName": "cowboy_grill.webp",
+        "name": "Ouray Alchemist Museum",
+        "address": "533 Main St, Ouray, CO 81427",
+        "phone": "(970) 325-4003",
+        "websiteURL": "https://ourayalchemist.com/",
+        "imageFileName": "alchemist.webp",
         "membershipLevel": 3,
-        "category": "food",
-        "description": "A restaurant located at Red Cliffs Lodge, offering a unique dining experience with stunning views of the Colorado River and surrounding red rock formations."
+        "category": "experience",
+        "description": "Travel through centuries of pharmaceutical history with this unique museum. Which offers an incredible collection of antique medical artifacts."
 
     }
 ]
