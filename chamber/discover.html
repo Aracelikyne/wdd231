@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Ouray Chamber of Commerce</title>
+    <meta name="description" content="Explore attractions, demographics, and points of interest in the Ouray area. Discover what Ouray has to offer visitors and businesses.">
+    <meta name="author" content="Monica Araceli Kyne">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/favicon.webp" type="image/webp">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" media="(min-width: 600px)" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/discover.css"> 
+    <script src="../scripts/dates.js" defer></script>
+    <script src="../scripts/navigation.js" defer></script>
+    <script src="scripts/discover.js" defer></script> 
+    <meta property="og:title" content="Ouray Chamber of Commerce Discover Page">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="A Chamber of Commerce Discover page for Ouray, Colorado.">
+    <meta property="og:image" content="https://AraceliKyne.github.io/wdd231/chamber/images/delicate_arch_hero.webp">
+    <meta property="og:url" content="https://AraceliKyne.github.io/wdd231/chamber/index.html">
+</head>
+
+<body>
+
+    <header>
+        <div class="content-wrapper">
+            <img src="images/ouray_logo.webp" alt="Logo of Ouray's Arches and Mountains." width="167" height="133">
+            <div class="header-name">Ouray Chamber of Commerce</div> <button id="menuButton"
+                aria-label="Toggle Menu">☰</button>
+        </div>
+    </header>
+
+    <nav>
+        <div class="content-wrapper">
+            <ul class="hide-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html" class="active">Discover</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="discover-main">
+        <div class="content-wrapper"> 
+            <h1>Discover Our Area</h1>
+            <aside class="visitor-message-container">
+                <p id="visitor-message"></p>
+            </aside>
+            <section id="attraction-cards-container"></section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="content-wrapper">
+            <div>
+                <p><strong>Ouray Chamber of Commerce</strong></p>
+                <p>123 Street, Ouray, CO 84532</p>
+                <p>info@ouraychamber.com</p>
+                <p>(801) 555-5555</p>
+            </div>
+            <div>
+                <p class="social-links-container">
+                    <a href="https://www.youtube.com/shorts/BhFVsSkwzeg"><img src="images/youtube.webp" alt="YouTube"
+                            width="48" height="48"></a>
+                    <a href="https://x.com/i/flow/login?redirect_after_login=/moabhappenings"><img
+                            src="images/twitter.webp" alt="Twitter" width="48" height="48"></a>
+                    <a href="https://linkedin.com"><img src="images/linkedin.webp" alt="LinkedIn" width="48"
+                            height="48"></a>
+                </p>
+            </div>
+            <div>
+                <p>©<span id="currentYear">2025</span> Ouray Chamber of Commerce</p>
+                <p>Monica Araceli Kyne | WDD 231 Class Project</p>
+                <p>Last Modification: <span id="lastModified"></span></p> 
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

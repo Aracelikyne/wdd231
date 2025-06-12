@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Ouray Hot Springs Pool",
+    "address": "1220 Main St, Ouray, CO 81427",
+    "description": "Splash and play in Ouray's sulfur-free hot springs pool, a premier destination for relaxation, family fun, and amazing views. Offers various soaking pools, play areas, and accessibility for all users, with temperatures ranging from 96 to 106 degrees Fahrenheit.",
+    "imageFileName": "hotsprings.webp"
+  },
+  {
+    "name": "Ouray Ice Park",
+    "address": "280 County Road 361, Ouray, CO 81427",
+    "description": "An outdoor park featuring over 200 ice and mixed climbs, attracting climbers from around the world. It's a massive man-made ice wall, located a short walk from downtown Ouray, offering free viewing and climbing opportunities.",
+    "imageFileName": "ouray-ice-park.webp"
+  },
+  {
+    "name": "Box Canyon Falls Park",
+    "address": "30 Box Canyon Rd, Ouray, CO 81427",
+    "description": "Ouray's own wonder of the world, featuring an 85-foot waterfall plummeting into a narrow quartzite canyon. Visitors can experience the breathtaking cascade both above and below via walkways and a high bridge.",
+    "imageFileName": "box-canyon-falls.webp"
+  },
+  {
+    "name": "Ouray Perimeter Trail",
+    "address": "Starts across from Ouray Visitors' Center, 1230 Main St, Ouray, CO 81427",
+    "description": "A unique 5.6 to 6-mile hiking loop that circumnavigates the town, offering varied terrain, unmatched scenery, multiple waterfalls, bridges, and up-close geology. It connects many of Ouray's attractions and offers spectacular views.",
+    "imageFileName": "perimeter-trail.webp"
+  },
+  {
+    "name": "Yankee Boy Basin",
+    "address": "Accessed via County Road 361 (Camp Bird Road) from Ouray",
+    "description": "A renowned alpine basin in the San Juan Mountains, known for its stunning display of wildflowers during spring and early summer, waterfalls like Twin Falls, and spectacular alpine scenery beneath peaks like Mount Sneffels. Requires a high-clearance or 4x4 vehicle for access.",
+    "imageFileName": "yankee-boy-basin.webp"
+  },
+  {
+    "name": "Gold Mountain Via Ferrata",
+    "address": "Ouray, CO",
+    "description": "An adventurous route showcasing Ouray's mining history, allowing participants to climb along fixed cables and iron rungs on cliff faces. It highlights the best adventure and scenery in the San Juans.",
+    "imageFileName": "via-ferrata.webp"
+  },
+  {
+    "name": "Ouray County Museum",
+    "address": "420 6th Ave, Ouray, CO 81427",
+    "description": "Explore the rich history of Ouray County at this museum, housed in the historic former Ouray Miners' Hospital. It offers insights into the area's mining past, pioneer life, and natural history.",
+    "imageFileName": "wright.webp"
+  },
+  {
+    "name": "Canyon Creek Canyoneering",
+    "address": "Various outfitters in Ouray, CO",
+    "description": "Experience Ouray's iconic waterfalls and canyons from a unique perspective, hiking, rappelling, and jumping down routes under the supervision of professional instructors.",
+    "imageFileName": "canyoneering.webp"
+  }
+]
